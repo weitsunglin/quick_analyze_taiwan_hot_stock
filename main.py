@@ -65,10 +65,7 @@ def plot_stock_data(dates, prices, stock_no, stock_name):
     plt.xlabel('日期', fontproperties=font_properties)
     plt.ylabel('收盤價', fontproperties=font_properties)
     plt.xticks(rotation=45)
-    
-
     plt.text(dates[0], max(prices), f'漲價:{count_red}次。跌:{count_green}次', fontproperties=font_properties, color='black')
-    
     plt.tight_layout()
     plt.savefig(f"C:\\Users\\User\\Desktop\\project\\tw_hot_stock_history\\hot\\{stock_no}_3month_history.png")
 
@@ -81,11 +78,11 @@ def get_top15_stock_numbers():
     if response.status_code == 200:
         data = response.json()
         df = pd.DataFrame(data)
-        df['Code'] = df['Code'].astype(str)
-        df['Name'] = df['Name'].astype(str)
-        sorted_df = df.sort_values(by='TradeValue', ascending=False)
-        top15_stock_numbers = sorted_df['Code'].head(15).tolist()
-        top15_stock_names = sorted_df['Name'].head(15).tolist()
+        df['TradeValue'] = pd.to_numeric(df['TradeValue'], errors='coerce')
+        top15 = df.sort_values(by='TradeValue', ascending=False).head(15)
+        top15_stock_numbers = top15['Code'].head(15).tolist()
+        top15_stock_names = top15['Name'].head(15).tolist()
+        
     return top15_stock_numbers, top15_stock_names
 
 
