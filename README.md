@@ -4,66 +4,63 @@
 
 ## 股票走勢圖
 
-### 股票代號：1517
+### 股票代號：2330
 
-![1517_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/1517_3month_history.png)
+![2330_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2330_3month_history.png)
 
-### 股票代號：2012
+### 股票代號：2317
 
-![2012_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2012_3month_history.png)
+![2317_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2317_3month_history.png)
 
-### 股票代號：6754
+### 股票代號：3661
 
-![6754_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/6754_3month_history.png)
+![3661_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/3661_3month_history.png)
 
-### 股票代號：6592B
+### 股票代號：1503
 
-![6592B_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/6592B_3month_history.png)
+![1503_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/1503_3month_history.png)
 
-### 股票代號：3266
+### 股票代號：3231
 
-![3266_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/3266_3month_history.png)
+![3231_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/3231_3month_history.png)
 
-### 股票代號：1340
+### 股票代號：2603
 
-![1340_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/1340_3month_history.png)
+![2603_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2603_3month_history.png)
 
-### 股票代號：9933
+### 股票代號：3017
 
-![9933_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/9933_3month_history.png)
+![3017_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/3017_3month_history.png)
 
-### 股票代號：2537
+### 股票代號：1513
 
-![2537_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2537_3month_history.png)
+![1513_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/1513_3month_history.png)
 
-### 股票代號：2882
+### 股票代號：2454
 
-![2882_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2882_3month_history.png)
+![2454_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2454_3month_history.png)
 
-### 股票代號：2889
+### 股票代號：2382
 
-![2889_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2889_3month_history.png)
+![2382_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2382_3month_history.png)
 
-### 股票代號：00681R
+### 股票代號：3037
 
-![00681R_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/00681R_3month_history.png)
+![3037_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/3037_3month_history.png)
 
-### 股票代號：1558
+### 股票代號：6669
 
-![1558_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/1558_3month_history.png)
+![6669_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/6669_3month_history.png)
 
-### 股票代號：1727
+### 股票代號：2303
 
-![1727_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/1727_3month_history.png)
+![2303_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2303_3month_history.png)
 
-### 股票代號：1215
+### 股票代號：00919
 
-![1215_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/1215_3month_history.png)
+![00919_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/00919_3month_history.png)
 
-### 股票代號：2474
+### 股票代號：2308
 
-![2474_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2474_3month_history.png)
+![2308_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/2308_3month_history.png)
 
-## 使用方法
-
-您可以從本存儲庫中下載特定股票的歷史走勢圖，或者將其用於相關項目。

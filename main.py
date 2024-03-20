@@ -82,7 +82,7 @@ def get_top15_stock_numbers():
         top15 = df.sort_values(by='TradeValue', ascending=False).head(15)
         top15_stock_numbers = top15['Code'].head(15).tolist()
         top15_stock_names = top15['Name'].head(15).tolist()
-        
+
     return top15_stock_numbers, top15_stock_names
 
 
@@ -107,7 +107,7 @@ if __name__ == "__main__":
         plot_stock_data(all_dates, all_prices, stock_number, stock_name)
 
 
-    with open("README.md", "w", encoding="utf-8") as readme_file:
+    with open("C:\\Users\\User\\Desktop\\project\\tw_hot_stock_history\\README.md", "w", encoding="utf-8") as readme_file:
         readme_file.write("# 台灣熱門股票歷史走勢圖\n\n")
         readme_file.write("本存儲庫用於保存台灣熱門股票的歷史走勢圖。\n\n")
         readme_file.write("## 股票走勢圖\n\n")
