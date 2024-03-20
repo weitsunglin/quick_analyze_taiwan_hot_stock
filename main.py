@@ -108,6 +108,8 @@ if __name__ == "__main__":
 
 
     with open("C:\\Users\\User\\Desktop\\project\\tw_hot_stock_history\\README.md", "w", encoding="utf-8") as readme_file:
+        readme_file.write("# 台灣熱門股票前15名\n\n")
+        readme_file.write(f"![hot_15_tw_stock](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/top15_stocks_trade_value.png)\n\n")
         readme_file.write("# 台灣熱門股票歷史走勢圖\n\n")
         readme_file.write("本存儲庫用於保存台灣熱門股票的歷史走勢圖。\n\n")
         readme_file.write("## 股票走勢圖\n\n")

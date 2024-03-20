@@ -1,3 +1,7 @@
+# 台灣熱門股票前15名
+
+![hot_15_tw_stock](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/top15_stocks_trade_value.png)
+
 # 台灣熱門股票歷史走勢圖
 
 本存儲庫用於保存台灣熱門股票的歷史走勢圖。
