@@ -107,3 +107,12 @@ if __name__ == "__main__":
         all_prices = two_months_ago_prices + prev_prices + curr_prices
 
         plot_stock_data(all_dates, all_prices, stock_number, stock_name)
+
+
+    with open("README.md", "w", encoding="utf-8") as readme_file:
+        readme_file.write("# 台灣熱門股票歷史走勢圖\n\n")
+        readme_file.write("本存儲庫用於保存台灣熱門股票的歷史走勢圖。\n\n")
+        readme_file.write("## 股票走勢圖\n\n")
+        for stock_number in top15_stock_numbers:
+            readme_file.write(f"### 股票代號：{stock_number}\n\n")
+            readme_file.write(f"![{stock_number}_3month_history](https://github.com/weitsunglin/tw_hot_stock_history/blob/main/hot/{stock_number}_3month_history.png)\n\n")
