@@ -27,5 +27,5 @@ if response.status_code == 200:
     
     plt.tight_layout()
 
-    save_path = 'C:\\Users\\User\\Desktop\\project\\tw_hot_stock_history\\top15_stocks_trade_value.png'
+    save_path = 'C:\\Users\\User\\Desktop\\project\\quick_analyze_taiwan_hot_stock\\top15_stocks_trade_value.png'
     plt.savefig(save_path)
