@@ -83,8 +83,9 @@ def get_top15_stock_numbers():
         df = pd.DataFrame(data)
         df['Code'] = df['Code'].astype(str)
         df['Name'] = df['Name'].astype(str)
-        top15_stock_numbers = df.sort_values(by='TradeValue', ascending=False)['Code'].head(15).tolist()
-        top15_stock_names = df['Name'].head(15).tolist()  # 修改此行
+        sorted_df = df.sort_values(by='TradeValue', ascending=False)
+        top15_stock_numbers = sorted_df['Code'].head(15).tolist()
+        top15_stock_names = sorted_df['Name'].head(15).tolist()
     return top15_stock_numbers, top15_stock_names
 
 
