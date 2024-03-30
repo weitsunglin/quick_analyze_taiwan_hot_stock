@@ -45,7 +45,7 @@ eps_dict = {info['公司代號']: info['EPS'] for info in eps_info}
 
 # 绘制成交金额长条图，并在每个条形上标注EPS
 font_path = "C:\\Windows\\Fonts\\msjh.ttc"
-font_properties = FontProperties(fname=font_path, size=12)
+font_properties = FontProperties(fname=font_path, size=10)
 plt.rcParams['axes.unicode_minus'] = False
 
 plt.style.use('ggplot')
