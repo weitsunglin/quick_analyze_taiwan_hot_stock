@@ -66,4 +66,3 @@ plt.tight_layout()
 
 save_path = 'C:\\Users\\User\\Desktop\\project\\quick_analyze_taiwan_hot_stock\\top15_stocks_trade_value.png'
 plt.savefig(save_path)
-plt.show()
