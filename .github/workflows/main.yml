@@ -17,6 +17,7 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: '3.9'  
+        token: ${{ secrets.ACCESS_TOKEN }} # 使用 GITHUB_TOKEN 進行 checkout
     - name: Install dependencies # 安裝依賴
       run: |
         pip install -r requirements.txt
@@ -25,15 +26,13 @@ jobs:
     - name: Run History3Month   # 執行程式
       run: python main.py
     - name: Commit and push to repository
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       run: |
         git config --global user.email "weitsunglin@igs.com"
         git config --global user.name "weitsunglin"
         if [[ $(git status --porcelain) ]]; then
           git add .
           git commit -m "Update from GitHub Actions"
-          git push https://weitsunglin:${ACCESS_TOKEN}@github.com/weitsunglin/quick_analyze_taiwan_hot_stock.git main
+          git push
         else
           echo "No changes to commit."
         fi
