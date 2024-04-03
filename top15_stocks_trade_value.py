@@ -42,7 +42,7 @@ def fetch_eps_info(stock_codes):
 eps_info = fetch_eps_info(top15_codes)
 eps_dict = {info['公司代號']: info['EPS'] for info in eps_info}
 
-font_path = "./msjh.ttc
+font_path = "./msjh.ttc"
 font_properties = FontProperties(fname=font_path, size=8)
 plt.rcParams['axes.unicode_minus'] = False
 
