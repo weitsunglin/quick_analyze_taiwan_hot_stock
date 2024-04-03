@@ -3,5 +3,4 @@ pandas
 matplotlib
 datetime
 timedelta
-FontProperties
 os
