@@ -1,0 +1,22 @@
+name: Run Python Script
+
+on:
+  schedule:
+    - cron: '*/1 * * * *'  # 每 1 分钟触发一次
+  push:
+    branches:
+      - main  # 或者您預設的分支名稱
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'  # 選擇您需要的 Python 版本
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
