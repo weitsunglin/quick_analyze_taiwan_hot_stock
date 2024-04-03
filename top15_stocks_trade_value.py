@@ -42,7 +42,7 @@ def fetch_eps_info(stock_codes):
 eps_info = fetch_eps_info(top15_codes)
 eps_dict = {info['公司代號']: info['EPS'] for info in eps_info}
 
-font_path = "C:\\Windows\\Fonts\\msjh.ttc"
+font_path = "./msjh.ttc
 font_properties = FontProperties(fname=font_path, size=8)
 plt.rcParams['axes.unicode_minus'] = False
 
@@ -64,5 +64,5 @@ for i, code in enumerate(top15['Code']):
 
 plt.tight_layout()
 
-save_path = 'C:\\Users\\User\\Desktop\\project\\quick_analyze_taiwan_hot_stock\\top15_stocks_trade_value.png'
+save_path = './top15_stocks_trade_value.png'
 plt.savefig(save_path)
