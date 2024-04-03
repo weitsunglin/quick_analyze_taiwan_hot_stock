@@ -34,7 +34,7 @@ jobs:
         
         if [[ $(git status --porcelain) ]]; then
           git commit -m "Update from GitHub Actions"
-          git push https://weitsunglin:${ACCESS_TOKEN}@github.com/quick_analyze_taiwan_hot_stock.git main
+          git push https://weitsunglin:${ACCESS_TOKEN}@github.com/weitsunglin/quick_analyze_taiwan_hot_stock.git main
         else
           echo "No changes to commit."
         fi
