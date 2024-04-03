@@ -28,8 +28,8 @@ jobs:
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
       run: |
-        git config user.email "weitsunglin@igs.com"
-        git config user.name "weitsunglin"
+        git config --global user.email "weitsunglin@igs.com"
+        git config --global user.name "weitsunglin"
         if [[ $(git status --porcelain) ]]; then
           git add .
           git commit -m "Update from GitHub Actions"
