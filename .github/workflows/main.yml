@@ -13,12 +13,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python
+    - name: Set up Python # 設定python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.9'  # 選擇您需要的 Python 版本
-    - name: Install dependencies
+        python-version: '3.9'  
+    - name: Install dependencies # 安裝依賴
       run: |
         pip install -r requirements.txt
-    - name: Run script
+    - name: Run script   # 執行程式
       run: python top15_stocks_trade_value.py
