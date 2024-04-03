@@ -107,7 +107,7 @@ if __name__ == "__main__":
         plot_stock_data(all_dates, all_prices, stock_number, stock_name)
 
 
-    with open("C:\\Users\\User\\Desktop\\project\\quick_analyze_taiwan_hot_stock\\README.md", "w", encoding="utf-8") as readme_file:
+    with open("./README.md", "w", encoding="utf-8") as readme_file:
         readme_file.write("# 台灣熱門股票前15名\n\n")
         readme_file.write(f"![hot_15_tw_stock](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/top15_stocks_trade_value.png)\n\n")
         readme_file.write("# 台灣熱門股票歷史走勢圖\n\n")
