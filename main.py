@@ -87,7 +87,7 @@ def get_top15_stock_numbers():
 
 
 if __name__ == "__main__":
-    directory = "C:\\Users\\User\\Desktop\\project\\quick_analyze_taiwan_hot_stock\\hot"
+    directory = "./hot"
     clear_directory(directory)
 
     top15_stock_numbers, top15_stock_names = get_top15_stock_numbers()
