@@ -20,3 +20,5 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
+    - name: Run script
+      run: python top15_stocks_trade_value.py
