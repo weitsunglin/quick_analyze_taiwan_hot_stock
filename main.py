@@ -50,7 +50,7 @@ def plot_stock_data(dates, prices, stock_no, stock_name):
     count_green = 0
 
     # 繁中
-    font_path = "C:\\Windows\\Fonts\\msjh.ttc"
+    font_path = "./msjh.ttc"
     font_properties = FontProperties(fname=font_path, size=12)
 
     for i in range(1, len(prices)):
@@ -67,7 +67,7 @@ def plot_stock_data(dates, prices, stock_no, stock_name):
     plt.xticks(rotation=45)
     plt.text(dates[0], max(prices), f'漲價:{count_red}次。跌:{count_green}次', fontproperties=font_properties, color='black')
     plt.tight_layout()
-    plt.savefig(f"C:\\Users\\User\\Desktop\\project\\quick_analyze_taiwan_hot_stock\\hot\\{stock_no}_3month_history.png")
+    plt.savefig(f"./hot/{stock_no}_3month_history.png")
 
 
 def get_top15_stock_numbers():
