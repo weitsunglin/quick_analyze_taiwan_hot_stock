@@ -22,3 +22,17 @@ jobs:
         pip install -r requirements.txt
     - name: Run script   # 執行程式
       run: python top15_stocks_trade_value.py
+    - name: Commit and push to  repository
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+      run: |
+        git config --global user.email "weitsunglin@igs.com"
+        git config --global user.name "weitsunglin"
+        git clone https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock.git
+        git add .
+        if [[ $(git status --porcelain) ]]; then
+          git commit -m "quick_analyze_taiwan_hot_stock" || true
+          git push https://weitsunglin:${ACCESS_TOKEN}@github.com/weitsunglin/quick_analyze_taiwan_hot_stock.git main || true
+        else
+          echo "No changes to commit."
+        fi
