@@ -3,4 +3,3 @@ pandas
 matplotlib
 datetime
 timedelta
-os
