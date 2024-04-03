@@ -20,8 +20,10 @@ jobs:
     - name: Install dependencies # 安裝依賴
       run: |
         pip install -r requirements.txt
-    - name: Run script   # 執行程式
+    - name: Run top15_stocks_trade_value   # 執行程式
       run: python top15_stocks_trade_value.py
+    - name: Run History3Month   # 執行程式
+      run: python main.py
     - name: Commit and push to repository
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
