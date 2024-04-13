@@ -12,7 +12,7 @@ if response.status_code == 200:
     df = pd.DataFrame(data)
     df['TradeValue'] = pd.to_numeric(df['TradeValue'], errors='coerce')
     df['ClosingPrice'] = pd.to_numeric(df['ClosingPrice'], errors='coerce')  # 新增：轉換收盤價為數值型
-    top15 = df.sort_values(by='TradeValue', ascending=False).head(30)
+    top15 = df.sort_values(by='TradeValue', ascending=False).head(15)
     top15_codes = top15['Code'].tolist()
 else:
     print("獲取股票資料失敗")
