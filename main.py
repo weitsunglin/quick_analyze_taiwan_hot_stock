@@ -112,6 +112,7 @@ if __name__ == "__main__":
         readme_file.write(f"![hot_15_tw_stock](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/top15_stocks_trade_value.png)\n\n")
         readme_file.write("# 台灣熱門股票歷史走勢圖\n\n")
         readme_file.write("本存儲庫用於保存台灣熱門股票的歷史走勢圖。\n\n")
+        readme_file.write("EPS從每年的年初開始計算。\n\n")
         readme_file.write("## 股票走勢圖\n\n")
         for stock_number in top15_stock_numbers:
             readme_file.write(f"### 股票代號：{stock_number}\n\n")
