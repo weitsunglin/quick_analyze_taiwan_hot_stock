@@ -22,17 +22,17 @@ EPS從每年的年初開始計算。
 
 ![2382_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2382_3month_history.png)
 
-### 股票代號：2609
-
-![2609_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2609_3month_history.png)
-
 ### 股票代號：2603
 
 ![2603_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2603_3month_history.png)
 
-### 股票代號：3017
+### 股票代號：2374
 
-![3017_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/3017_3month_history.png)
+![2374_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2374_3month_history.png)
+
+### 股票代號：2367
+
+![2367_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2367_3month_history.png)
 
 ### 股票代號：2454
 
@@ -42,29 +42,29 @@ EPS從每年的年初開始計算。
 
 ![2359_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2359_3month_history.png)
 
-### 股票代號：3231
+### 股票代號：2376
 
-![3231_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/3231_3month_history.png)
+![2376_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2376_3month_history.png)
 
-### 股票代號：3661
+### 股票代號：3017
 
-![3661_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/3661_3month_history.png)
+![3017_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/3017_3month_history.png)
+
+### 股票代號：6446
+
+![6446_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/6446_3month_history.png)
+
+### 股票代號：2363
+
+![2363_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2363_3month_history.png)
 
 ### 股票代號：1519
 
 ![1519_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/1519_3month_history.png)
 
-### 股票代號：6669
+### 股票代號：3661
 
-![6669_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/6669_3month_history.png)
-
-### 股票代號：2362
-
-![2362_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2362_3month_history.png)
-
-### 股票代號：2357
-
-![2357_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/2357_3month_history.png)
+![3661_3month_history](https://github.com/weitsunglin/quick_analyze_taiwan_hot_stock/blob/main/hot/3661_3month_history.png)
 
 ### 股票代號：2618
 
