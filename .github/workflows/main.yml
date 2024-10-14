@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   schedule:
-    - cron: '*/1 * * * *'  # 每 1 分钟触发一次
+    - cron: '*/30 * * * *'  # 每 1 分钟触发一次
   push:
     branches:
       - main  # 或者您預設的分支名稱
