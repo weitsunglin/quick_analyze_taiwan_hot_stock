@@ -60,7 +60,8 @@ for i, code in enumerate(top15['Code']):
     eps = eps_dict.get(code, 'N/A')
     closing_price = top15.iloc[i]['ClosingPrice']  # 直接使用已經轉換的收盤價數據
     text_position = top15.iloc[i]['TradeValue'] * 1.01  # 稍微提高文字位置，避免與條形重疊
-    ax.text(i, text_position, f'EPS: {eps}\n收盤價: {closing_price}', ha='center', va='bottom', fontproperties=font_properties)
+    #ax.text(i, text_position, f'EPS: {eps}\n收盤價: {closing_price}', ha='center', va='bottom', fontproperties=font_properties)
+    ax.text(i, text_position, f'收盤價: {closing_price}', ha='center', va='bottom', fontproperties=font_properties)
 
 plt.tight_layout()
 
